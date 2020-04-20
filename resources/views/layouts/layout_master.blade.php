@@ -1,53 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start developing with a User Interface Kit with Bootstrap 4">
-    <meta name="author" content="Themesberg">
-    <title> @yield('title') </title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#ffffff">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Pixel CSS -->
+  <title>Verbos - Deaf Tech</title>
 
-    <link rel="stylesheet" href="{{ asset('css/pixel.css') }}">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    
+    
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top">
+ <!-- Page Wrapper -->
+ <div id="wrapper">
 
 
-    <header class="header-global">
-        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark navbar-theme-dark headroom" style="background:#4e73df">
-            <div class="container position-relative">
-                <a class="navbar-brand mr-lg-5" href="/">
-                   Alfonso Balderas
-                </a>
-                <div class="navbar-collapse collapse" id="navbar_global">
-                    <div class="navbar-collapse-header">
-                        <div class="row">
-                            <div class="col-9 collapse-brand">
-                                <a href="/">
-                                    <h3>Inicio</h3>
-                                </a>
-                            </div>
-                            <div class="col-3 collapse-close">
-                                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"></a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
 
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <h4>VerbosLSM - Deaf Tech</h4>
+                    <ul class="navbar-nav ml-auto">
                             <!-- Form -->
-                            <form method="GET" action="{{ route('search') }}" autocomplete="off">
-                                <div class="input-group ml-lg-6">
-
-                                        <input class="form-control"
+                            <form method="GET" action="{{ route('search') }}" autocomplete="off" 
+                            class="d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100">
+                            <div class="input-group">
+                                        <input class="form-control bg-light border-0 small"
                                         name="verbo" id="verbo"
                                         placeholder="Buscar" type="text">
 
@@ -61,18 +54,10 @@
                             </form>
                             {{ csrf_field() }}
                                 <!-- End of Form -->
-                </div>
 
-                <div class="d-flex align-items-center">
 
-                    {{-- <a href="/acceder" role="button" class="btn btn-primary ml-lg-3 animate-up-2">Acceder</a>
-                    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> --}}
-                </div>
-            </div>
         </nav>
-    </header>
+        <!-- End of Topbar -->
 
 
     <main>
@@ -83,17 +68,6 @@
 
     <footer class="footer bg-dark text-white py-4 overflow-hidden">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 text-center">
-                    <h5>Santiago de Querétaro, México</h5>
-
-                </div>
-                <div class="col-lg-6 col-md-6 text-center">
-                    <h5>contacto@deaftech.com.mx</h5>
-
-                </div>
-
-            </div>
             <div class="copyright mt-0 text-center">
                 &#xA9;
                 Deaf Tech
@@ -105,22 +79,25 @@
     </footer>
 
 
+</div>
+<!-- End of Main Content -->
 
-    <!-- Core -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <!-- <script src="/vendor/bootstrap/bootstrap.min.js"></script> -->
-    <script src="vendor/headroom/headroom.min.js"></script>
+</div>
+<!-- End of Content Wrapper -->
 
-    <!-- Vendor JS -->
-    <script src="vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
-    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
-    <!-- pixel JS -->
-    <script src="js/pixel.js"></script>
+</div>
+<!-- End of Page Wrapper -->
 
-    <!-- pixel JS -->
-    <script src="{{ asset('js/jsAutocomplete.js') }}"></script>
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+  <script language="Javascript" src="js/jsAutocomplete.js"></script>
 
 </body>
 
