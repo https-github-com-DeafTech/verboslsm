@@ -9,15 +9,15 @@
     <meta name="author" content="Themesberg">
     <title> @yield('title') </title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/public/img/favicon.png">
-    <link rel="mask-icon" href="/public/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- Pixel CSS -->
 
-    <link rel="stylesheet" href="{{ asset('/public/css/pixel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/pixel.css') }}">
 </head>
 
 <body>
@@ -107,20 +107,20 @@
 
 
     <!-- Core -->
-    <script src="/public/vendor/jquery/jquery.min.js"></script>
-    <script src="/public/vendor/popper/popper.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
     <!-- <script src="/vendor/bootstrap/bootstrap.min.js"></script> -->
-    <script src="/public/vendor/headroom/headroom.min.js"></script>
+    <script src="vendor/headroom/headroom.min.js"></script>
 
     <!-- Vendor JS -->
-    <script src="/public/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
-    <script src="/public/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="/public/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <!-- pixel JS -->
-    <script src="/public/js/pixel.js"></script>
+    <script src="js/pixel.js"></script>
 
     <!-- pixel JS -->
-    <script src="{{ asset('/public/js/jsAutocomplete.js') }}"></script>
+    <script src="{{ asset('js/jsAutocomplete.js') }}"></script>
 
 </body>
 

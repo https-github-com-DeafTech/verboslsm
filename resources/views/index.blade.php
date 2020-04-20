@@ -14,7 +14,7 @@
                  <div class="row align-items-center justify-content-around pt-6 pt-md-4 pb-4 mb-2">
 
                      <div class="col-md-6 col-xl-5 mb-2 mr-4">
-                         <img class="img-fluid" src="/public/img/logo_VerbosLSM.png" alt="Image">
+                         <img class="img-fluid" src="img/logo_VerbosLSM.png" alt="Image">
                      </div>
 
                      <div class="col-md-6 col-xl-6 text-center text-md-left card shadow-sm border-light p-2 p-md-4 p-lg-4">
