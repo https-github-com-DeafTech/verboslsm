@@ -21,13 +21,13 @@
          <!-- Nested Row within Card Body -->
          <div class="row">
              <div class="col-lg-1"></div>
-           <div class="col-lg-4 d-none d-lg-block bg-login-image"></div>
-           <div class="col-lg-7">
+           <div class="col-lg-10">
              <div class="p-5">
                <div class="text-center">
                  <h1 class="h4 text-gray-900 mb-2">Deaf Tech 2019</h1>
                  <p class="mb-4">
-Página web con videos para aprender algunos verbos y sus conjugaciones en Lengua de Señas Mexicana (LSM) y ayudar a la comunicación entre la comunidad sorda de la República Mexicana.</p>
+            Página web con videos para aprender algunos verbos y sus conjugaciones en Lengua de Señas Mexicana (LSM) 
+            y ayudar a la comunicación entre la comunidad sorda de la República Mexicana.</p>
                </div>
                <hr>
                                 <div class="text-center">

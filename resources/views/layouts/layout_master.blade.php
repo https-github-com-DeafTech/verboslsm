@@ -34,7 +34,7 @@
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-            <h4>VerbosLSM - Deaf Tech</h4>
+            <h5><a href="/">VerbosLSM - Deaf Tech</a></h5>
                     <ul class="navbar-nav ml-auto">
                             <!-- Form -->
                             <form method="GET" action="{{ route('search') }}" autocomplete="off" 
