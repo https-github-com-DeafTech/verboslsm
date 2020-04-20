@@ -27,7 +27,7 @@
         <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark navbar-theme-dark headroom" style="background:#4e73df">
             <div class="container position-relative">
                 <a class="navbar-brand mr-lg-5" href="/">
-                    Inicio
+                   Hola
                 </a>
                 <div class="navbar-collapse collapse" id="navbar_global">
                     <div class="navbar-collapse-header">
