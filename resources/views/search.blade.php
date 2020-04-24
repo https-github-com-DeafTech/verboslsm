@@ -62,11 +62,11 @@
                     Presente
                     </div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                       Yo {{$video->presente_yo}}<br/>
-                    Tú {{$video->presente_tu}}<br/>
-                 Él/Ella {{$video->presente_el_ella}}<br/>
-                 Nosotros {{$video->presente_nosotros}}<br/>
-                 Ustedes {{$video->presente_ustedes}}<br/>
+                      <span class="text-danger">Yo</span> {{substr($video->presente_yo,0,-1)}}<span class="text-primary">{{substr($video->presente_yo,-1)}}</span><br/>
+                      <span class="text-danger">Tú</span> {{substr($video->presente_tu,0,-2)}}<span class="text-primary">{{substr($video->presente_tu,-2)}}</span><br/>
+                      <span class="text-danger">Él/Ella</span> {{substr($video->presente_el_ella,0,-2)}}<span class="text-primary">{{substr($video->presente_el_ella,-2)}}</span><br/>
+                      <span class="text-danger">Nosotros</span> {{substr($video->presente_nosotros,0,-4)}}<span class="text-primary">{{substr($video->presente_nosotros,-4)}}</span><br/>
+                      <span class="text-danger">Ustedes</span> {{substr($video->presente_ustedes,0,-3)}}<span class="text-primary">{{substr($video->presente_ustedes,-3)}}</span><br/>
 
                     </div>
                 </div>
@@ -82,11 +82,11 @@
                         Pasado
                     </div>
                   <div class="h5 mb-0 font-weight-bold text-gray-800">
-                  Yo {{$video->pasado_yo}} <br />
-                  Tú {{$video->pasado_tu}}<br />
-                  Él/Ella {{$video->pasado_el_ella}}<br />
-                  Nosotros {{$video->pasado_nosotros}}<br />
-                  Ustedes {{$video->pasado_ustedes}}<br />
+                    <span class="text-danger">Yo</span> {{substr($video->pasado_yo,0,-2)}}<span class="text-warning">{{substr($video->pasado_yo,-2)}}</span><br />
+                    <span class="text-danger">Tú</span> {{substr($video->pasado_tu,0,-3)}}<span class="text-warning">{{substr($video->pasado_tu,-3)}}</span><br />
+                    <span class="text-danger">Él/Ella</span> {{substr($video->pasado_el_ella,0,-2)}}<span class="text-warning">{{substr($video->pasado_el_ella,-2)}}</span><br />
+                    <span class="text-danger">Nosotros</span> {{substr($video->pasado_nosotros,0,-4)}}<span class="text-warning">{{substr($video->pasado_nosotros,-4)}}</span><br />
+                    <span class="text-danger">Ustedes</span> {{substr($video->pasado_ustedes,0,-2)}}<span class="text-warning">{{substr($video->pasado_ustedes,-2)}}</span><br />
                     </div>
                 </div>
               </div>
@@ -103,11 +103,11 @@
                     Futuro
                     </div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                    Yo {{$video->futuro_yo}} <br />
-                    Tú {{$video->futuro_tu}}<br />
-                    Él/Ella {{$video->futuro_el_ella}}<br />
-                    Nosotros {{$video->futuro_nosotros}}<br />
-                    Ustedes {{$video->futuro_ustedes}}<br />
+                      <span class="text-danger">Yo</span> {{substr($video->futuro_yo,0,-2)}}<span class="text-success">{{substr($video->futuro_yo,-2)}}</span><br />
+                      <span class="text-danger">Tú</span> {{substr($video->futuro_tu,0,-3)}}<span class="text-success">{{substr($video->futuro_tu,-3)}}</span><br />
+                      <span class="text-danger">Él/Ella</span> {{substr($video->futuro_el_ella,0,-2)}}<span class="text-success">{{substr($video->futuro_el_ella,-2)}}</span><br />
+                      <span class="text-danger">Nosotros</span> {{substr($video->futuro_nosotros,0,-4)}}<span class="text-success">{{substr($video->futuro_nosotros,-4)}}</span><br />
+                      <span class="text-danger">Ustedes</span> {{substr($video->futuro_ustedes,0,-3)}}<span class="text-success">{{substr($video->futuro_ustedes,-3)}}</span><br />
                 </div>
  
                 </div>
