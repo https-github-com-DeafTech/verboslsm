@@ -158,42 +158,49 @@
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-                    <div class="col-lg-4">
-                      <div class="text-center m-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                      <div class="p-2">
+                      <div class="text-center m-2 ">
                     <div class="avatar">
                       <img src="img/jose_paoletti.jpg" 
-                      style=" border-radius: 50%; width: -moz-available"
+                      style=" border-radius: 50%; width: 150px"
                         alt="Sample avatar">
                   </div>
                   <h5 class="font-weight-bold mt-4 mb-3">José Paoletti L.</h5>
                   <p class="text-uppercase blue-text"><strong><a href="https://www.facebook.com/groups/1873104899593976" target="_blank">Fundador de LSM-QUO (Facebook)</a></strong></p>
                 </div>
               </div>
+            </div>
 
-                    <div class="col-lg-4">
-                      <div class="text-center m-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                      <div class="p-2">
+                      <div class="text-center m-2">
                     <div class="avatar">
                       <img src="img/renato_paoletti.jpg" 
-                      style=" border-radius: 50%; width: -moz-available"
+                      style=" border-radius: 50%; width: 150px"
                         alt="Sample avatar">
                   </div>
                   <h5 class="font-weight-bold mt-4 mb-3">Renato Paoletti L.</h5>
                   <p class="text-uppercase blue-text"><strong><a href="https://www.facebook.com/groups/1873104899593976" target="_blank">Fundador de LSM-QUO (Facebook)</a></strong></p>
                 </div>
               </div>
+            </div>
 
-                  <div class="col-lg-4">
-                    <div class="text-center m-5">
+                  <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                    <div class="p-2">
+                    <div class="text-center m-2">
                   <div class="avatar">
                     <img src="img/jose_carlos.jpg" 
-                    style=" border-radius: 50%; width: -moz-available"
+                    style=" border-radius: 50%; width: 150px"
                       alt="Sample avatar">
                 </div>
                 <h5 class="font-weight-bold mt-4 mb-3">José C. Hernandez</h5>
                 </div>
                 </div>
+                  </div>
             </div>
             </div>
+
           </div>
         </div>
    
